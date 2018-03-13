@@ -15,7 +15,8 @@
 **Methodology**
 
 **Results**
-We included the results from one run of the code in a Spreadsheet linked below. 
+
+We included the results from one run of the code in a Spreadsheet linked below and in the three line graphs. 
 
 ![image of graph](https://github.com/aleong1/Cheesy_PotatoesDos/blob/master/bestchart.png)
 ![image of graph](https://github.com/aleong1/Cheesy_PotatoesDos/blob/master/worstchart.png)
