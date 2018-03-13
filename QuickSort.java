@@ -104,13 +104,15 @@ public class QuickSort
   {
   
     //get-it-up-and-running, static test case:
-    int [] arr1 = {7,1,5,12,3};
+      int [] arr1 = {7,1,5,12,3};
     System.out.println("\narr1 init'd to: " );
     printArr(arr1);
 
-    qsort( arr1 );	
-    System.out.println("arr1 after qsort: " );
+     qsort( arr1 );
+     System.out.println("arr1 after qsort: " );
     printArr(arr1);
+    
+    
 
     // randomly-generated arrays of n distinct vals
     int[] arrN = new int[10];
