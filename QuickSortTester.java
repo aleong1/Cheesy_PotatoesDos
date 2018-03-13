@@ -18,7 +18,7 @@ public class QuickSortTester{
 	System.out.println("\nAscending generated ints trials:");
 	//best case
 	System.out.println("Test 1 using mid pos as pvt point:");
-	while(sizearr < 1000){
+	while(sizearr <= 1000){
 	    int trial = 1;
 	    ave = 0;
 	
@@ -39,9 +39,10 @@ public class QuickSortTester{
 		trial += 1;
 		ave += estimatedTime;   //but this is the average of 1000 trials
 	    }
-	    sizearr += 100;
+	    
 	    
 	    System.out.println("Average of 1000 trials of size " + sizearr + " is " + (ave/1000) + " nanoseconds.\n\n");
+	    sizearr += 100;
 	}
 
 	System.out.println("--------------------------------------");
@@ -51,7 +52,7 @@ public class QuickSortTester{
 	// starts at size 100 then it increments by 100 until it gets to 1000  **this is the worst case**
 	sizearr = 100;
 	System.out.println("Test 2 using the left boundary as pvt point:");
-	while(sizearr < 1000){
+	while(sizearr <= 1000){
 	    int trial = 1;
 	    ave = 0;
 	
@@ -72,9 +73,10 @@ public class QuickSortTester{
 		trial += 1;
 		ave += estimatedTime;   //but this is the average of 1000 trials
 	    }
-	    sizearr += 100;
 	    
 	    System.out.println("Average of 1000 trials of size " + sizearr + " is " + (ave/1000) + " nanoseconds.\n\n");
+	    sizearr += 100;
+	    
 	}
 
 	System.out.println("**************************************************");
@@ -86,7 +88,7 @@ public class QuickSortTester{
 	System.out.println("Descending generated ints trials:");
 	//best case
 	System.out.println("Test 1 using mid pos as pvt point:");
-	while(sizearr < 1000){
+	while(sizearr <= 1000){
 	    int trial = 1;
 	    ave = 0;
 	
@@ -107,10 +109,11 @@ public class QuickSortTester{
 		trial += 1;
 		ave += estimatedTime;   //but this is the average of 1000 trials
 	    }
+	    System.out.println("Average of 1000 trials of size " + sizearr + " is " + (ave/1000) + " nanoseconds.\n\n");
 	    sizearr += 100;
 	    
-	    System.out.println("Average of 1000 trials of size " + sizearr + " is " + (ave/1000) + " nanoseconds.\n\n");
 	}
+	
 
 	System.out.println("--------------------------------------");
 	
@@ -118,7 +121,7 @@ public class QuickSortTester{
 	// starts at size 100 then it increments by 100 until it gets to 1000  **this is the worst case**
 	sizearr = 100;
 	System.out.println("Test 2 using the left boundary as pvt point:");
-	while(sizearr < 1000){
+	while(sizearr <= 1000){
 	    int trial = 1;
 	    ave = 0;
 	
@@ -139,9 +142,10 @@ public class QuickSortTester{
 		trial += 1;
 		ave += estimatedTime;   //but this is the average of 1000 trials
 	    }
-	    sizearr += 100;
 	    
 	    System.out.println("Average of 1000 trials of size " + sizearr + " is " + (ave/1000) + " nanoseconds.\n\n");
+	    sizearr += 100;
+	    
 	}
 
 	System.out.println("**************************************************");
@@ -153,7 +157,7 @@ public class QuickSortTester{
 	System.out.println("Randomly generated ints trials:");
 	//best case
 	System.out.println("Test 1 using mid pos as pvt point:");
-	while(sizearr < 1000){
+	while(sizearr <= 1000){
 	    int trial = 1;
 	    ave = 0;
 	
@@ -174,9 +178,10 @@ public class QuickSortTester{
 		trial += 1;
 		ave += estimatedTime;   //but this is the average of 1000 trials
 	    }
-	    sizearr += 100;
 	    
 	    System.out.println("Average of 1000 trials of size " + sizearr + " is " + (ave/1000) + " nanoseconds.\n\n");
+	    sizearr += 100;
+	    
 	}
 
 	System.out.println("--------------------------------------");
@@ -186,7 +191,7 @@ public class QuickSortTester{
 	// randomly-generated arrays of sizearr distinct vals  --> starts at size 100 then it increments by 100 until it gets to 1000  **this is the worst case**
 	sizearr = 100;
 	System.out.println("Test 2 using the left boundary as pvt point:");
-	while(sizearr < 1000){
+	while(sizearr <= 1000){
 	    int trial = 1;
 	    ave = 0;
 	
@@ -207,9 +212,9 @@ public class QuickSortTester{
 		trial += 1;
 		ave += estimatedTime;   //but this is the average of 1000 trials
 	    }
+	    System.out.println("Average of 1000 trials of size " + sizearr + " is " + (ave/1000) + " nanoseconds.\n\n");
 	    sizearr += 100;
 	    
-	    System.out.println("Average of 1000 trials of size " + sizearr + " is " + (ave/1000) + " nanoseconds.\n\n");
 	}
 
 	System.out.println("**************************************************");
