@@ -6,6 +6,7 @@
                                                QuickSort Execution Time Lab
   
 **Big O Runtime**
+
 Worst case: if the pivot happens to be the smallest or the largest element in the array, there is no partition to be done because one of the sub-array (either the left one or the right one) is empty. This will degenerate the divide-and-conquer mechanism of the quicksort method and turns into something similar to the selection sort --> O(n^2)
 
 Best case: Occurs when the pivot point is the exact median of the array. There are log2n splits / partitions and the run time for the partion algorithm is O(n) because you have to iterate through every element of the subarrays to generate a swap, which means that number of swaps grow linearly as the size of the array increases. Combining the two processes, the best cae run time for quicksort is O(n log n). 
@@ -20,6 +21,7 @@ We know that O(n^2) is quadratic run time, which means that as the size of the a
 Our experiment starts off with a size 100 arrays and we will increment it by 100 after 1000 trials until the size reaches 1000. The average values for each test case is the average time that it took to quicksort 1000 times for each of the sizes (100, 200, 300, 400... 1000).The arrays are generated randomly, ascending and descending for each size to see how the arrangement of the array effects the execution time. Also, for each of the three way the data is organized, it tests the best and worst case pivot position: the middle position and the left most position. We did that by adding another helper method to QuickSort.java.
 
 **Results**
+
 We included the results from one run of the code in a Spreadsheet linked below and in the three line graphs. 
 
 ![image of graph](https://github.com/aleong1/Cheesy_PotatoesDos/blob/master/bestchart.png)
