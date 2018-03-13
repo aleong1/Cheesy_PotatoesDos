@@ -91,9 +91,9 @@ public class QuickSort
 	    int pvtPos = partition(d, left, right, (int)((left + right) / 2));
 
 	    //sort all the element starting from the lower bound to the element rigt beofre the pivot  point
-	    qsortHelper(d, left, pvtPos - 1);
+	    qsortHelper1(d, left, pvtPos - 1);
 	    //sort all the elements starting from the element right after the pivot point to the upperbound of the array
-	    qsortHelper(d, pvtPos + 1, right);
+	    qsortHelper1(d, pvtPos + 1, right);
 	    
 	}
     }
