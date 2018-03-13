@@ -3,7 +3,8 @@
 ###### L01 - But What Does the Data Say?
 ###### 2018-03-14
 
-                                             QuickSort Execution Time Lab
+                                           QuickSort Execution Time Lab
+                                           
 Method proposal (Don't include this in real readme)!!! 
   For a size 5 random array: Pick the mid val, first val, last val
   size 5 ascending array : same 3
