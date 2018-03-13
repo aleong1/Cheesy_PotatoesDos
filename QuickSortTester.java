@@ -4,6 +4,11 @@
 //L#01 -- But What Does the Data Say?
 //2018-03-14
 
+/*
+Our arrays start off with a size of 100 and increment after 1000 trials by 100 until the size reaches 1000. The average values for each test case is the time that it took to quicksort 1000 times for each side divided by 1000.
+The arrays are organized randomly, ascending, and descending to see how the arrangement of the array effects the execution time. Also, for each of the three way the data is organized, it tests the best and worst case pivot position, the middle position and the left most position. We did that by adding another helper method to QuickSort.java.
+ */
+
 public class QuickSortTester{
     private static int ave = 0;
     
