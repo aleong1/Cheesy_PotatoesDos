@@ -3,7 +3,7 @@
 ###### L01 - But What Does the Data Say?
 ###### 2018-03-14
 
-                                   :tada: :tada: QuickSort Execution Time Lab :tada: :tada:
+                                                 QuickSort Execution Time Lab 
   
 **Big O Runtime**
 
