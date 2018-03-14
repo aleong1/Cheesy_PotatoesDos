@@ -36,7 +36,16 @@ CSV File Data (this is only the data from one run, but usually after each run, t
 
 **Conclusions**
 
+
 your time measurements and analysis of same
 how pivot selection and data arrangement affect execution time.
 Analysis of raw data (concise explanations of conclusions drawn.)
 Explicit mention of any results you *cannot* explain.
+
+Specific:
+After analyzing our data from multiple runs, we noticed that the run time of the array in ascending order for both the best and worst cases start off much higher in the beginning and gradually returns to the same level as the other arrangements.This is probably because ascending order takes longer to run than other arrangements for both case work, but rather it is because this arrangement (ascending) is the first to be ran in our algorithm. Generally speaking, opening a new session in the terminal and running the algorithm for the first time requires the SYSTEM to allocate memory to its tasks, which might slow it down at first. However, after the system has gotten used to the tasks, the runtime for the ascending arrangement of both cases decreased dramatically, which explains why there is a sudden dip in the graph for both caeswork at size 800. It also sheds light on why the best case scenario in ascending order takes longer to run than the worst cases.
+
+Unexplanable dips in the data. Ascending array worst case is runs better than the all the best case scenarios arrangement at size 700 
+
+In general: explain how the general trend of the graph matches with the run time in our hypothesis. Will use correlation coefficient to prove the point. 
+
